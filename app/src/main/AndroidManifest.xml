@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.acer.utsmobile">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityNext" />
+        <activity android:name=".Hasil" />
+        <activity android:name=".Segitiga" />
+        <activity android:name=".Trapesium" />
+        <activity android:name=".PersegiPanjang" />
+        <activity android:name=".Lingkaran" />
+        <activity android:name=".Persegi" />
+        <activity android:name=".HasilSegitiga" />
+        <activity android:name=".HasilLingkaran" />
+        <activity android:name=".HasilPersegi" />
+        <activity android:name=".HasilPersegiPanjang" />
+        <activity android:name=".HasilTrapesium"></activity>
+    </application>
+
+</manifest>

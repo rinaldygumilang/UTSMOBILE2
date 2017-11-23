@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Persegi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#004D40"
+    tools:context="com.example.acer.utsmobile.Persegi">
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai 1"
+        android:layout_marginTop="50dp"
+        android:layout_alignLeft="@+id/EditText2"
+        android:layout_alignStart="@+id/EditText2"
+        android:inputType="number"
+        android:textColorHint="#FAFAFA"
+        android:textAlignment="center"
+        android:layout_alignRight="@+id/EditText2"
+        android:layout_alignEnd="@+id/EditText2" />
+
+
+    <EditText
+        android:layout_below="@+id/EditText1"
+        android:id="@+id/EditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai 2"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:textColorHint="#FAFAFA"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luas"
+        android:id="@+id/klik"
+        android:onClick="klik1"
+        android:background="#00796B"
+        android:layout_marginStart="73dp"
+        android:layout_marginLeft="73dp"
+        android:layout_alignBaseline="@+id/klik1"
+        android:layout_alignBottom="@+id/klik1"
+        android:layout_alignLeft="@+id/EditText2"
+        android:layout_alignStart="@+id/EditText2" />
+
+    <Button
+        android:id="@+id/klik1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditText2"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_toEndOf="@+id/klik"
+        android:layout_toRightOf="@+id/klik"
+        android:background="#00796B"
+        android:onClick="klik2"
+        android:text="Keliling" />
+
+</RelativeLayout>
+
